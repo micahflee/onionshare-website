@@ -41,6 +41,45 @@ html {
     /*narrowest iPhone width*/
 }
 
+nav {
+  background-color: #4e0d4e;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+nav img.logo {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a:link, nav a:visited {
+  color: #b7aab7;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px;
+}
+
+nav a:hover, nav a:active {
+  color: #ffffff;
+}
+
+nav li.home a {
+  font-size: 20px;
+}
+
 h1 {
     font-size: 3rem;
     line-height: 3.25rem;

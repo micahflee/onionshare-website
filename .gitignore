@@ -1,7 +1,0 @@
-*.swp
-/dist/
-/node_modules/
-/npm-debug.log
-/validation-report.json
-/validation-status.json
-*.*~
