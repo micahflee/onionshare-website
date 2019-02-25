@@ -33,8 +33,6 @@
     color: #fff;
 }
 
-body {}
-
 html {
     font-family: 'Roboto Slab';
     min-width: 320px;
@@ -78,6 +76,18 @@ nav a:hover, nav a:active {
 
 nav li.home a {
   font-size: 20px;
+}
+
+div.page {
+  margin: 20px;
+}
+
+div.page img {
+  max-width: 100%;
+}
+
+.homepage {
+  text-align: center;
 }
 
 h1 {
